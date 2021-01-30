@@ -23,3 +23,8 @@ CODES = 'codigos.csv'
 ```
 2. Create an `output` directory
 3. Run `python sign.py` and all the signed documents will be available at `output`
+
+## Create transparent signature files with PDF format
+ User `convert` tool and convert a PNG image with transparency to PDF:
+ 
+ `convert signature.png -transparent white -background none signature.pdf`
